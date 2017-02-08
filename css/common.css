@@ -1,0 +1,91 @@
+@charset "utf-8";
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+body,
+button,
+input,
+ul,
+li,
+p,
+div,
+i,
+span,
+a,
+header,
+article,
+section,
+iframe,
+footer,
+b,
+address,
+aside{
+    font-family:微软雅黑;
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    word-wrap:break-word;
+    outline: none;
+}
+body{
+    background-color: #fff;
+    font-size: 14px;
+}
+.top {
+    width: 100%;
+}
+.top img {
+    width: 100%;
+}
+.top p {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    width: 152px;
+    height: 28px;
+    margin: 15px auto;
+    background-color: #157EAE;
+    border-radius: 23px;
+    line-height: 24px;
+}
+.turnplate {
+    position: relative;
+    width: 424px;
+    height: 427px;
+    background-image: url(../images/xydzp.png);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.pointer {
+    position: absolute;
+    top: 100px;
+    left: 146px;
+}
+.bottom {
+    width: 80%;
+    margin: 0 auto;
+
+}
+.btns {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+button {
+    width: 105px;
+    height: 43px;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    background-color: #ffc600;
+}
+.msg-text {
+    color: #fff;
+    padding: 10px;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+}
